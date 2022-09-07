@@ -1,0 +1,556 @@
+2022-07-04 15:57:43,311 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-07-04 15:57:43,312 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-07-04 15:57:43,312 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-07-04 15:57:43,312 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-07-04 15:57:43,312 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-07-04 15:57:43,313 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-07-04 15:57:43,358 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-07-04 15:57:43,358 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu1","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-07-04 15:57:43,358 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-07-04 15:57:43,358 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu1', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-07-04 15:57:43,358 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu1', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-07-04 15:57:43,359 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-07-04 15:57:43,402 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-07-04 15:57:43,403 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-07-04 15:57:43,403 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+400
+2022-07-04 15:57:43,403 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-07-04 15:57:43,403 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-07-04 15:57:43,403 py37_api INFO test_01_login.py [line:63] 响应结果为：{'Status': 400, 'Message': '无效的用户名或密码'}
+2022-07-04 15:57:43,404 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-07-04 15:57:43,406 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-07-04 15:57:43,406 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-07-04 15:57:43,406 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-07-04 15:57:43,406 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-07-04 15:57:43,406 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-07-04 15:57:43,406 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-07-04 15:57:43,450 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-07-04 15:57:43,450 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-07-04 15:57:43,451 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-07-04 15:57:43,451 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-07-04 15:57:43,451 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-07-04 15:57:43,451 py37_api INFO test_01_login.py [line:63] 响应结果为：{'Data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTg3MzU4NjMsImlhdCI6MTY1NjkyMTQ2MywibmJmIjoxNjU2OTIxNDYzLCJzdWIiOiI4ZGUyOGJlZi1lZWUwLTQzZjEtYjUwNC1kMWUxZDBmMDY1MzQifQ.3lvVkoqGaQOrE7oycZEpLjYd8ukThF8Wq9krzW7ZXxViq8mGyjmwmhrXJee7lq5G8xutLnN6s0cnoHbU4BNfcA', 'token_type': 'Bearer', 'expires_at': 1658735863}}
+2022-07-04 15:57:43,451 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-01 15:22:34,202 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:22:34,204 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-01 15:22:34,204 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:22:34,204 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:34,204 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:34,205 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:22:34,315 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:22:34,315 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu1","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-01 15:22:34,316 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:22:34,316 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu1', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:34,316 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu1', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:34,316 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:22:34,351 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-01 15:22:34,351 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-01 15:22:34,352 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+400
+2022-09-01 15:22:34,352 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-01 15:22:34,353 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-01 15:22:34,353 py37_api INFO test_01_login.py [line:63] 响应结果为：{'Status': 400, 'Message': '无效的用户名或密码'}
+2022-09-01 15:22:34,353 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-01 15:22:34,355 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:22:34,355 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-01 15:22:34,355 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:22:34,355 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:34,356 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:34,356 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:22:34,388 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-01 15:22:34,388 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-01 15:22:34,389 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-01 15:22:34,391 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-01 15:22:34,391 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-01 15:22:34,392 py37_api INFO test_01_login.py [line:63] 响应结果为：{'Data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4MzEzNTMsImlhdCI6MTY2MjAxNjk1MywibmJmIjoxNjYyMDE2OTUzLCJzdWIiOiI4ZGUyOGJlZi1lZWUwLTQzZjEtYjUwNC1kMWUxZDBmMDY1MzQifQ.eo1mU8tjSJBYhzKRQxv1o33cAnENoY8Sk-jiJrK7xPnX3xFIH8gjRKaCmEkXb8UotOvMKarcvKjNz8yfdd4QVQ', 'token_type': 'Bearer', 'expires_at': 1663831353}}
+2022-09-01 15:22:34,392 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-01 15:22:52,259 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:22:52,260 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-01 15:22:52,260 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:22:52,260 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:52,260 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:52,261 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:22:52,327 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:22:52,328 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-01 15:22:52,328 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:22:52,328 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:52,329 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:52,329 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:22:52,374 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-01 15:22:52,374 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-01 15:22:52,375 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-01 15:22:52,376 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-01 15:22:52,376 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-01 15:22:52,376 py37_api INFO test_01_login.py [line:63] 响应结果为：{'Data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4MzEzNzEsImlhdCI6MTY2MjAxNjk3MSwibmJmIjoxNjYyMDE2OTcxLCJzdWIiOiI4ZGUyOGJlZi1lZWUwLTQzZjEtYjUwNC1kMWUxZDBmMDY1MzQifQ.8mOwNJFGkmAhlrjGlJhRLwkSg2-8dpwuA_jJjlxqMegDfdG4PCOTxh3n6e2yHIC3Zy4q_ChvukL4WbGhts7B5A', 'token_type': 'Bearer', 'expires_at': 1663831371}}
+2022-09-01 15:22:52,376 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-01 15:22:52,378 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:22:52,378 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-01 15:22:52,379 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:22:52,379 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:52,379 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:22:52,380 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:22:52,420 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-01 15:22:52,421 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-01 15:22:52,421 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-01 15:22:52,421 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-01 15:22:52,422 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-01 15:22:52,422 py37_api INFO test_01_login.py [line:63] 响应结果为：{'Data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjM4MzEzNzEsImlhdCI6MTY2MjAxNjk3MSwibmJmIjoxNjYyMDE2OTcxLCJzdWIiOiI4ZGUyOGJlZi1lZWUwLTQzZjEtYjUwNC1kMWUxZDBmMDY1MzQifQ.8mOwNJFGkmAhlrjGlJhRLwkSg2-8dpwuA_jJjlxqMegDfdG4PCOTxh3n6e2yHIC3Zy4q_ChvukL4WbGhts7B5A', 'token_type': 'Bearer', 'expires_at': 1663831371}}
+2022-09-01 15:22:52,422 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-01 15:23:51,735 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:23:51,736 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-01 15:23:51,736 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:23:51,737 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:23:51,737 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:23:51,737 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:23:51,793 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:23:51,794 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-01 15:23:51,794 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:23:51,795 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:23:51,795 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:23:51,795 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:23:51,832 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-01 15:23:51,833 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-01 15:23:51,833 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-01 15:23:51,834 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-01 15:23:51,834 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-01 15:23:51,834 py37_api INFO test_01_login.py [line:63] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjI3OTQ2MzAsImlhdCI6MTY2MjAxNzAzMCwibmJmIjoxNjYyMDE3MDMwLCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.V5esM3m7lqoPNgL5mq2WN6mrVI8gIXkYiWsblA8rInffVVC2NcBsNUaOLIvMSQbr3fioy_4rm3t-k_rH2W2NoA', 'token_type': 'Bearer', 'expires_at': 1662794630, 'phone': ''}, 'status': 1}
+2022-09-01 15:23:51,834 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-01 15:23:51,836 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-01 15:23:51,837 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-01 15:23:51,837 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-01 15:23:51,837 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:23:51,837 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-01 15:23:51,838 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-01 15:23:51,874 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-01 15:23:51,875 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-01 15:23:51,875 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-01 15:23:51,876 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-01 15:23:51,876 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-01 15:23:51,876 py37_api INFO test_01_login.py [line:63] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjI3OTQ2MzAsImlhdCI6MTY2MjAxNzAzMCwibmJmIjoxNjYyMDE3MDMwLCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.V5esM3m7lqoPNgL5mq2WN6mrVI8gIXkYiWsblA8rInffVVC2NcBsNUaOLIvMSQbr3fioy_4rm3t-k_rH2W2NoA', 'token_type': 'Bearer', 'expires_at': 1662794630, 'phone': ''}, 'status': 1}
+2022-09-01 15:23:51,877 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-06 11:37:45,966 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-06 11:37:45,968 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:37:45,968 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:37:45,969 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:37:45,969 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:37:45,969 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:37:46,129 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-06 11:37:46,130 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:37:46,130 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:37:46,131 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:37:46,131 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:37:46,131 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:37:46,185 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 11:37:46,185 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 11:37:46,187 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 11:37:46,187 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 11:37:46,187 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:37:46,188 py37_api INFO test_01_login.py [line:63] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTMwNjYsImlhdCI6MTY2MjQzNTQ2NiwibmJmIjoxNjYyNDM1NDY2LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.GFVbyRjgFHovNWiGVQZfD8fCMRpO6RmjUHFR7yvc0fT1XBY6hf33bdLDXQ-OiiCxX8UCnjIafE52vEeTaSky6w', 'token_type': 'Bearer', 'expires_at': 1663213066, 'phone': ''}, 'status': 1}
+2022-09-06 11:37:46,188 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-06 11:37:46,190 py37_api INFO test_01_login.py [line:34] 开始登录
+2022-09-06 11:37:46,190 py37_api INFO test_01_login.py [line:46] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 11:37:46,191 py37_api INFO test_01_login.py [line:47] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:37:46,191 py37_api INFO test_01_login.py [line:50] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:37:46,191 py37_api INFO test_01_login.py [line:51] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:37:46,191 py37_api INFO test_01_login.py [line:52] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:37:46,247 py37_api INFO test_01_login.py [line:61] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 11:37:46,248 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 11:37:46,249 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 11:37:46,249 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 11:37:46,250 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:37:46,250 py37_api INFO test_01_login.py [line:63] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTMwNjYsImlhdCI6MTY2MjQzNTQ2NiwibmJmIjoxNjYyNDM1NDY2LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.GFVbyRjgFHovNWiGVQZfD8fCMRpO6RmjUHFR7yvc0fT1XBY6hf33bdLDXQ-OiiCxX8UCnjIafE52vEeTaSky6w', 'token_type': 'Bearer', 'expires_at': 1663213066, 'phone': ''}, 'status': 1}
+2022-09-06 11:37:46,250 py37_api INFO test_01_login.py [line:66] 断言结果为：[True]
+2022-09-06 11:40:56,423 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:40:56,424 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:40:56,424 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:40:56,425 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:40:56,425 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:40:56,425 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:40:56,472 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:40:56,473 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:40:56,473 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:40:56,474 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:40:56,474 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:40:56,474 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:40:56,511 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 11:40:56,511 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 11:40:56,512 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 11:40:56,512 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 11:40:56,513 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:40:56,513 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTMyNTYsImlhdCI6MTY2MjQzNTY1NiwibmJmIjoxNjYyNDM1NjU2LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.87f9pNF2PhaH35_RvmMmXcBA2oRPrDbd67ME0DAuZP3PEFCJ5-qsp77SWeb4M3YZLY_Y9LWAq8NP4RTzrnKL0A', 'token_type': 'Bearer', 'expires_at': 1663213256, 'phone': ''}, 'status': 1}
+2022-09-06 11:40:56,513 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:40:56,515 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:40:56,515 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 11:40:56,516 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:40:56,516 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:40:56,516 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:40:56,516 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:40:56,553 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 11:40:56,554 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 11:40:56,554 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 11:40:56,555 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 11:40:56,555 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:40:56,556 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTMyNTYsImlhdCI6MTY2MjQzNTY1NiwibmJmIjoxNjYyNDM1NjU2LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.87f9pNF2PhaH35_RvmMmXcBA2oRPrDbd67ME0DAuZP3PEFCJ5-qsp77SWeb4M3YZLY_Y9LWAq8NP4RTzrnKL0A', 'token_type': 'Bearer', 'expires_at': 1663213256, 'phone': ''}, 'status': 1}
+2022-09-06 11:40:56,557 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:44:57,333 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:44:57,333 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:44:57,334 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:44:57,334 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:44:57,334 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:44:57,335 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:44:57,398 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:44:57,399 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:44:57,399 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:44:57,400 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:44:57,400 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:44:57,400 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:44:57,458 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 11:44:57,459 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 11:44:57,459 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 11:44:57,460 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 11:44:57,460 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:44:57,460 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTM0OTcsImlhdCI6MTY2MjQzNTg5NywibmJmIjoxNjYyNDM1ODk3LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.G3IsbR3IAfjE01OvPdXAjn7suaq7LJht4fBVUt87w3UURgtTtw-JSLuIKdFniM3mFD5-uFjbL5tzd0iKNcYQaA', 'token_type': 'Bearer', 'expires_at': 1663213497, 'phone': ''}, 'status': 1}
+2022-09-06 11:44:57,461 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:44:57,463 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:44:57,464 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 11:44:57,464 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:44:57,464 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:44:57,464 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:44:57,465 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:44:57,520 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 11:44:57,521 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 11:44:57,522 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 11:44:57,522 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 11:44:57,523 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:44:57,524 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTM0OTcsImlhdCI6MTY2MjQzNTg5NywibmJmIjoxNjYyNDM1ODk3LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.G3IsbR3IAfjE01OvPdXAjn7suaq7LJht4fBVUt87w3UURgtTtw-JSLuIKdFniM3mFD5-uFjbL5tzd0iKNcYQaA', 'token_type': 'Bearer', 'expires_at': 1663213497, 'phone': ''}, 'status': 1}
+2022-09-06 11:44:57,524 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:45:55,293 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:45:55,294 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:45:55,294 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:45:55,295 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:45:55,295 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:45:55,295 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:45:55,351 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:45:55,352 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:45:55,352 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:45:55,353 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:45:55,353 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:45:55,353 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:45:55,389 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 11:45:55,389 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 11:45:55,390 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 11:45:55,390 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 11:45:55,391 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:45:55,391 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTM1NTUsImlhdCI6MTY2MjQzNTk1NSwibmJmIjoxNjYyNDM1OTU1LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.5_P2SrKxVkM4q3TIautmuh4F4RmZQ7ulLpgWj8VZ7WGfrzIObt899xshGfEkEudVMcv40kOj_fDTQd2Y-tShuA', 'token_type': 'Bearer', 'expires_at': 1663213555, 'phone': ''}, 'status': 1}
+2022-09-06 11:45:55,391 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:45:55,393 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:45:55,394 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 11:45:55,394 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:45:55,394 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:45:55,394 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:45:55,395 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:45:55,430 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 11:45:55,430 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 11:45:55,431 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 11:45:55,431 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 11:45:55,431 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:45:55,432 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTM1NTUsImlhdCI6MTY2MjQzNTk1NSwibmJmIjoxNjYyNDM1OTU1LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.5_P2SrKxVkM4q3TIautmuh4F4RmZQ7ulLpgWj8VZ7WGfrzIObt899xshGfEkEudVMcv40kOj_fDTQd2Y-tShuA', 'token_type': 'Bearer', 'expires_at': 1663213555, 'phone': ''}, 'status': 1}
+2022-09-06 11:45:55,432 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:48:10,571 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:48:10,571 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:48:10,572 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:48:10,572 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:48:10,572 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:48:10,573 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:48:10,620 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:48:10,621 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 11:48:10,621 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:48:10,622 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:48:10,622 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:48:10,622 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:48:10,660 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 11:48:10,660 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 11:48:10,661 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 11:48:10,661 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 11:48:10,661 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:48:10,662 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTM2OTAsImlhdCI6MTY2MjQzNjA5MCwibmJmIjoxNjYyNDM2MDkwLCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.XNvxpridvbll2H5SGrV5mFKJp8M4FsnBuSxce3wpMi4aBPh6QerBy3NR9TgK325hqWEepKVJ_RlaHkqOJ-gfEg', 'token_type': 'Bearer', 'expires_at': 1663213690, 'phone': ''}, 'status': 1}
+2022-09-06 11:48:10,662 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 11:48:10,664 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 11:48:10,664 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 11:48:10,664 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 11:48:10,665 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:48:10,665 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 11:48:10,665 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 11:48:10,700 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 11:48:10,701 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 11:48:10,702 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 11:48:10,702 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 11:48:10,702 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 11:48:10,702 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMTM2OTAsImlhdCI6MTY2MjQzNjA5MCwibmJmIjoxNjYyNDM2MDkwLCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.XNvxpridvbll2H5SGrV5mFKJp8M4FsnBuSxce3wpMi4aBPh6QerBy3NR9TgK325hqWEepKVJ_RlaHkqOJ-gfEg', 'token_type': 'Bearer', 'expires_at': 1663213690, 'phone': ''}, 'status': 1}
+2022-09-06 11:48:10,703 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 13:42:59,567 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 13:42:59,568 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 13:42:59,568 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 13:42:59,569 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:42:59,569 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:42:59,569 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 13:42:59,620 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 13:42:59,620 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 13:42:59,621 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 13:42:59,621 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:42:59,621 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:42:59,622 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 13:42:59,680 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 13:42:59,680 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 13:42:59,682 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 13:42:59,682 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 13:42:59,682 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 13:42:59,683 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMjA1NzksImlhdCI6MTY2MjQ0Mjk3OSwibmJmIjoxNjYyNDQyOTc5LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.3_Xyy5eK8_bx55PukgJGFi4-m4PxCP7ZQEl_jT0fE5C5I528i63Q0uE0RAQRWgbnoirfBg3NiTGP_c8pGDKRFw', 'token_type': 'Bearer', 'expires_at': 1663220579, 'phone': ''}, 'status': 1}
+2022-09-06 13:42:59,683 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 13:42:59,686 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 13:42:59,686 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 13:42:59,686 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 13:42:59,687 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:42:59,687 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:42:59,687 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 13:42:59,742 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 13:42:59,742 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 13:42:59,743 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 13:42:59,743 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 13:42:59,743 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 13:42:59,744 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMjA1NzksImlhdCI6MTY2MjQ0Mjk3OSwibmJmIjoxNjYyNDQyOTc5LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.3_Xyy5eK8_bx55PukgJGFi4-m4PxCP7ZQEl_jT0fE5C5I528i63Q0uE0RAQRWgbnoirfBg3NiTGP_c8pGDKRFw', 'token_type': 'Bearer', 'expires_at': 1663220579, 'phone': ''}, 'status': 1}
+2022-09-06 13:42:59,744 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 13:43:58,154 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 13:43:58,154 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 13:43:58,155 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 13:43:58,156 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:43:58,156 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:43:58,157 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 13:43:58,218 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 13:43:58,219 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{
+    "ID": "chenzanxu",
+    "secret": "25d55ad283aa400af464c76d713c07ad",
+    "type": "default"
+}
+2022-09-06 13:43:58,219 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 13:43:58,219 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:43:58,220 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:43:58,220 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 13:43:58,274 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$.Status","expected":400,"type":"eq"}]
+2022-09-06 13:43:58,274 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$.Status', 'expected': 400, 'type': 'eq'}
+2022-09-06 13:43:58,275 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+False
+2022-09-06 13:43:58,275 py37_api INFO my_assert.py [line:32] 期望结果为:
+400
+2022-09-06 13:43:58,276 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 13:43:58,276 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMjA2MzgsImlhdCI6MTY2MjQ0MzAzOCwibmJmIjoxNjYyNDQzMDM4LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.EZ4zSpvTUZ02DaeYtmea45ME3cqTlHr8KvsYRt7mxxtKVogfSgXAsdtu_mUGPhin2meXnnI2iLbiulMagD8y0Q', 'token_type': 'Bearer', 'expires_at': 1663220638, 'phone': ''}, 'status': 1}
+2022-09-06 13:43:58,276 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
+2022-09-06 13:43:58,279 py37_api INFO test_01_login.py [line:35] 开始登录
+2022-09-06 13:43:58,279 py37_api INFO test_01_login.py [line:47] --------------req_data提取的操作值为：
+{"ID": "chenzanxu","secret": "25d55ad283aa400af464c76d713c07ad", "type": "default"}
+2022-09-06 13:43:58,280 py37_api INFO test_01_login.py [line:48] ---case["req_data"]的数据类型为
+<class 'str'>
+2022-09-06 13:43:58,280 py37_api INFO test_01_login.py [line:51] req_dict的数据为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:43:58,280 py37_api INFO test_01_login.py [line:52] --------------req_dict提取的操作值为：{'ID': 'chenzanxu', 'secret': '25d55ad283aa400af464c76d713c07ad', 'type': 'default'}
+2022-09-06 13:43:58,280 py37_api INFO test_01_login.py [line:53] req_dict的数据类型为<class 'dict'>
+2022-09-06 13:43:58,335 py37_api INFO test_01_login.py [line:62] 提取出来的测试数据为：[{"expr":"$..token_type","expected":"Bearer","type":"eq"}]
+2022-09-06 13:43:58,336 py37_api INFO my_assert.py [line:26] 要断言的内容为：
+{'expr': '$..token_type', 'expected': 'Bearer', 'type': 'eq'}
+2022-09-06 13:43:58,336 py37_api INFO my_assert.py [line:31] 从响应结果当中，提取到的值为:
+Bearer
+2022-09-06 13:43:58,337 py37_api INFO my_assert.py [line:32] 期望结果为:
+Bearer
+2022-09-06 13:43:58,337 py37_api INFO my_assert.py [line:47] 所有断言成功！
+2022-09-06 13:43:58,337 py37_api INFO test_01_login.py [line:64] 响应结果为：{'data': {'access_token': 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMyMjA2MzgsImlhdCI6MTY2MjQ0MzAzOCwibmJmIjoxNjYyNDQzMDM4LCJzdWIiOiJkMzFhYzAxZC1mZjAyLTQ0YjMtYjYwZC00YjA0ODg0OTVhMjM6Y2hlbnphbnh1OnRydWUifQ.EZ4zSpvTUZ02DaeYtmea45ME3cqTlHr8KvsYRt7mxxtKVogfSgXAsdtu_mUGPhin2meXnnI2iLbiulMagD8y0Q', 'token_type': 'Bearer', 'expires_at': 1663220638, 'phone': ''}, 'status': 1}
+2022-09-06 13:43:58,338 py37_api INFO test_01_login.py [line:67] 断言结果为：[True]
